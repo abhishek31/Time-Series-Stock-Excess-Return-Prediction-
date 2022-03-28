@@ -1,2 +1,2 @@
 # Time-Series-Stock-Excess-Return-Prediction-
-Prediction of stock excess return using SARIMA model (with and without additional variables) and prophet model. 
+Prediction of stock excess return using SARIMA model (with and without additional variables) and prophet model. Here the additional variable is the dividend yield of the stock. The prediction method used is one step ahead prediction where forecasts are computed sequentially for each data point by using computed level and trend states for the current point, and seasonal states for the last seasonal period. The evaluation metric used for evaluating different models was Mean Square Prediction Error which is defined as the expected squared distance between the predicted value and the true value for the test data. 
